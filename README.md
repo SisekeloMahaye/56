@@ -1,35 +1,39 @@
-# EEE3088F Group 18 Project
+# Group 57 Miro Mouse Project
 
-## Description
-This project is for the development and design of a HAT (Hardware Attached on Top) for EEE3088F 2023. The designed PCB will be able to sense the environmental parameters of light, temperature and humidity. These parameters will be processed and output to perform a range of useful functions such as environmental monitoring and automation of environmental control.
+## Overview
+This repository contains the documentation for Group 57's Miro Mouse project. The Miro Mouse is a small robotic platform designed for navigating mazes autonomously.
 
-## Structure
-* PCB: The KiCAD Project, Schematics & Layout and Project Libraries
-* Firmware: Any software developed for the hardware or instructions on where to find relevant sofware
-* Documents: Project documentation and component datasheets
-* Production: The gerber files, BOM, Budget, or anything required by the fabrication houses
-* Simulation: Any simulation files (eg SPICE) or design stage generated results (Eg matlab or excel) 
-* CAD: Any 3D models or mechanical designs for enclosures or support
+## Team Members
+- MHYSIS001: Responsible for the power subsystem.
+- ZKHMUS002: Responsible for the sensing subsystem.
+
+## Subsystems
+### Power Subsystem (MHYSIS001)
+The power subsystem manages the energy requirements of the Miro Mouse. It includes components such as batteries.
+
+### Sensing Subsystem (ZKHMUS002)
+The sensing subsystem is responsible for gathering information about the environment. It includes sensors such as infrared sensors, and any other sensors needed for maze navigation.
+
+## Repository Structure
+- `power_subsystem/`: Contains documentation related to the power subsystem.
+- `sensing_subsystem/`: Contains documentation related to the sensing subsystem.
+- `shared/`: Contains documentation shared between the subsystems.
 
 ## Installation
-Software developed for the hardware or instructions on where to find relevant sofware can be found in the [Firmware](https://gitlab.com/eee3088f-group-18/eee3088f-project/-/tree/main/Firmware) directory.
+1. Clone this repository to your local machine.
+2. Navigate to the relevant subsystem directory (`power_subsystem/` or `sensing_subsystem/`).
+3. Follow the instructions in the README file located in each subsystem directory to set up and run the code.
 
-## Usage
-The project documentation can be found in the [Documents](https://gitlab.com/eee3088f-group-18/eee3088f-project/-/tree/main/Documents) directory and the files required to produce the PCB can be found in the [Production](https://gitlab.com/eee3088f-group-18/eee3088f-project/-/tree/main/Production) directory.
-
-## Contact
-* Tilal Mukhtar - MKHTIL001@myuct.ac.za
-* Deereshan Naidoo - NDXDEE010@myuct.ac.za
-* Dylan Trowsdale - TRWDYL001@myuct.ac.za
-
-## Project Status and Roadmap
-This project is actively under developement.
-
-## Authors and Acknowledgement
-Authors:
-* Tilal Mukhtar
-* Deereshan Naidoo
-* Dylan Trowsdale
+## Contribution Guidelines
+If you would like to contribute to this project, please follow these guidelines:
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes.
+- Test your changes thoroughly.
+- Create a pull request detailing your changes.
 
 ## License
 [Creative Commons Attribution 4.0 International license](https://choosealicense.com/licenses/cc-by-4.0/)
+
+## Acknowledgements
+- This project is developed as part of [Course EEE3088F] at [University of Cape Town].
